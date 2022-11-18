@@ -53,8 +53,8 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS", "2139088940").split()))
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 ALIVE_IMG = getenv("ALIVE_IMG", "https://te.legra.ph/file/8eb3466b2e2fc39263665.jpg")
 START_PIC = getenv("START_PIC", "https://te.legra.ph/file/8eb3466b2e2fc39263665.jpg")
-DURATION_LIMIT = int(getenv("DURATION_LIMIT", ",
-0"))
+DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
+
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ITZ-ZAID/Zaid-Vc-Player")
 PLAY_IMG = getenv("PLAY_IMG", "https://telegra.ph/file/10b1f781170b1e1867f68.png")
 QUE_IMG = getenv("QUE_IMG", "https://telegra.ph/file/b95c13eef1ebd14dbb458.png")
