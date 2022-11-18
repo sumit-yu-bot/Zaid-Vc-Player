@@ -36,7 +36,7 @@ else:
 BOT_TOKEN = getenv("BOT_TOKEN", "5616489321:AAH0uo59epc6mHNcpCCu3RfB3vnDM4NOc4c")
 BOT_NAME = getenv("BOT_NAME", "SUMIT x BELLY")
 
-API_ID = int(getenv("API_ID", "17221046"))
+API_ID = int(getenv("API_ID", "17091394"))
 API_HASH = getenv("API_HASH", "233ef51a2c05a3979f95d7c7730cf320")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Belly:belly55@atlascluster.ends7zl.mongodb.net/?retryWrites=true&w=majority")
 OWNER_NAME = getenv("OWNER_NAME", "Sumit")
