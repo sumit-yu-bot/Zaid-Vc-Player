@@ -33,16 +33,16 @@ if str(getenv("STRING_SESSION5")).strip() == "":
 else:
     SESSION5 = str(getenv("STRING_SESSION5"))
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5616489321:AAH0uo59epc6mHNcpCCu3RfB3vnDM4NOc4c")
+BOT_TOKEN = getenv("BOT_TOKEN", "5667013817:AAEp9ZEBF6C2bfN9D4Om2xLrOv0dwyNMTW8")
 BOT_NAME = getenv("BOT_NAME", "SUMIT x BELLY")
 
-API_ID = int(getenv("API_ID", "17091394"))
+API_ID = int(getenv("API_ID", "14200983"))
 API_HASH = getenv("API_HASH", "233ef51a2c05a3979f95d7c7730cf320")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Belly:belly55@atlascluster.ends7zl.mongodb.net/?retryWrites=true&w=majority")
 OWNER_NAME = getenv("OWNER_NAME", "Sumit")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "ll_sumit_ll")
 ALIVE_NAME = getenv("ALIVE_NAME", "SUMIT x MUSIC ")
-BOT_USERNAME = getenv("BOT_USERNAME", "bellyxrobot")
+BOT_USERNAME = getenv("BOT_USERNAME", "bellyvcbot")
 OWNER_ID = getenv("OWNER_ID", "2139088940")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "iMi_seno")
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "xd_luxclub")
